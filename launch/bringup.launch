@@ -1,0 +1,5 @@
+<launch>
+    <group ns="tb3">
+        <include file="$(find turtlebot3_bringup)/launch/turtlebot3_robot.launch"></include>
+    </group>
+</launch>
