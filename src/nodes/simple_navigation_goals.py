@@ -29,7 +29,7 @@ class InitException(Exception):
 # http://docs.ros.org/jade/api/actionlib/html/classactionlib_1_1simple__action__client_1_1SimpleActionClient.html
 
 
-class NavigateWaypoints:
+class SimpleNavigationGoals:
     """Interface with the move_base actionlb. Allows to set a position goal (x, y, theta) that will be followed by a robot, using a predefined GlobalPlanner and LocalPlanner
 
     Raises:
@@ -223,4 +223,4 @@ if __name__ == "__main__":
     except rospy.ROSInterruptException:
         rospy.logerr(traceback.format_exc())
 
-    rospy.loginfo("navigate_waypoints node terminated.")
+    rospy.loginfo("simple_navigation_goals node terminated.")
