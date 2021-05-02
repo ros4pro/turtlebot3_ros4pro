@@ -20,7 +20,7 @@
 
         <!-- rviz -->
         <group if="$(arg open_rviz)">
-            <node pkg="rviz" type="rviz" name="rviz" required="true" args="-d $(find turtlebot3_slam)/rviz/$(arg slam_methods).rviz" />
+            <node pkg="rviz" type="rviz" name="rviz" required="true" args="-d $(find turtlebot3_ros4pro)/rviz/turtlebot3_$(arg slam_methods).rviz" />
         </group>
     </group>
 </launch>
