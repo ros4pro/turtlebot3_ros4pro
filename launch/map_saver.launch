@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="map_saver" pkg="map_server" type="map_saver" ns="tb3" args="-f $(find turtlebot3_ros4pro)/maps/map" />
+</launch>
